@@ -1,0 +1,20 @@
+{
+  "id": "IDM",
+  "name": "IDM-based",
+  "version": "1",
+  "rule_controller": {
+    "kind": "idm",
+    "following_distance_m": 2.0,
+    "time_headway_s": 1.5,
+    "minimum_gap_m": 2.0,
+    "acceleration_mps2": 1.2,
+    "comfortable_deceleration_mps2": 2.0,
+    "exponent": 4.0,
+    "longitudinal_control_dict": {
+      "K_P": 1.0,
+      "K_I": 0.05,
+      "K_D": 0.0,
+      "dt": 0.05
+    }
+  }
+}

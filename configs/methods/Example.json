@@ -1,0 +1,10 @@
+{
+  "id": "Example",
+  "name": "Example route follower",
+  "version": "1",
+  "visual_policy": {
+    "kind": "custom",
+    "factory": "examples.route_follower:create",
+    "target_speed_mps": 4.0
+  }
+}

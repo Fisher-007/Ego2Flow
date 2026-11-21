@@ -1,0 +1,63 @@
+{
+  "profile": "model3_rwd",
+  "parameters": {
+    "mass_kg": 1752.0,
+    "drag_coefficient": 0.23,
+    "frontal_area_m2": 2.22,
+    "rolling_coefficient": 0.007,
+    "rotating_mass_kg": 29.16184148888734,
+    "air_density_kg_m3": 1.2,
+    "gravity_mps2": 9.81,
+    "auxiliary_w": 250.0,
+    "transmission_efficiency": 0.98,
+    "motor_power_w": 239000.0,
+    "efficiency_fraction": [
+      0.0,
+      0.02,
+      0.04,
+      0.06,
+      0.08,
+      0.1,
+      0.2,
+      0.4,
+      0.6,
+      0.8,
+      1.0
+    ],
+    "efficiency": [
+      0.84,
+      0.86,
+      0.88,
+      0.9,
+      0.91,
+      0.92,
+      0.9400000000000001,
+      0.95,
+      0.95,
+      0.9400000000000001,
+      0.93
+    ],
+    "efficiency_interpolation": {
+      "Step": "Lower"
+    },
+    "battery_power_w": 201227.4239,
+    "battery_capacity_j": 194400000.0,
+    "battery_efficiency": 0.9848857801796105,
+    "minimum_soc": 0.05,
+    "maximum_soc": 0.98,
+    "maximum_traction_acceleration_mps2": 4.651749476256648,
+    "maximum_friction_deceleration_mps2": 6.867,
+    "resource": "2022 Tesla Model 3 RWD thrml.yaml",
+    "parameter_version": "3.1.0"
+  },
+  "sources": {
+    "chassis_motor_battery": "FASTSim 3.1.0 official 2022 Tesla Model 3 RWD thrml.yaml",
+    "source_url": "https://github.com/NatLabRockies/fastsim/tree/v3.1.0/fastsim-core/resources/vehicles",
+    "air_density": "FASTSim constant-air-density convention, 1.2 kg/m3",
+    "gravity": "Common 9.81 m/s2",
+    "rotating_mass": "4*wheel_inertia/wheel_radius^2",
+    "motor_map": "Unmodified official Step Lower map; battery-terminal definition",
+    "regeneration": "Same finite motor and battery power limits; reverse efficiency uses official zero-load map value",
+    "auxiliary": "Fixed official 250 W; isothermal, HVAC transient excluded for every algorithm"
+  }
+}

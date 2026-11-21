@@ -1,0 +1,12 @@
+{
+  "id": "TM",
+  "name": "Traffic Manager",
+  "version": "1",
+  "rule_controller": {
+    "kind": "traffic_manager",
+    "following_distance_m": 2.0,
+    "path_spacing_m": 20.0,
+    "native_tm_outlets": true,
+    "junction_lanes": "route_and_adjacent"
+  }
+}

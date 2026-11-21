@@ -1,0 +1,17 @@
+{
+  "id": "OneVL",
+  "name": "OneVL",
+  "version": "1",
+  "visual_policy": {
+    "kind": "onevl",
+    "factory": "benchmark.policies.vlm:create",
+    "model_kind": "onevl",
+    "name": "OneVL",
+    "model_path": "${ONEVL_WEIGHTS}",
+    "inference_python": "${VLM_INFERENCE_PYTHON}",
+    "calibration": "${EGO2FLOW_ROOT}/configs/sensors/av2_front_rig.json",
+    "seed": 7,
+    "onevl_motion_encoding": "stationary_summary"
+  },
+  "python": "${VLM_CARLA_PYTHON}"
+}

@@ -1,0 +1,30 @@
+{
+  "version": "1",
+  "ttc_threshold_s": 1.5,
+  "closing_speed_epsilon_mps": 0.1,
+  "hard_brake_threshold_mps2": -3.0,
+  "hard_brake_minimum_duration_s": 0.3,
+  "hard_brake_merge_gap_s": 0.2,
+  "hard_brake_minimum_speed_mps": 0.5,
+  "collision_contact_gap_s": 1.0,
+  "collision_shock_margin_s": 0.1,
+  "energy": {
+    "package": "local_sumo_formula",
+    "version": "3.1.0",
+    "vehicle_resource": "2022 Tesla Model 3 RWD thrml.yaml",
+    "initial_soc": 0.8,
+    "source": "https://github.com/NatLabRockies/fastsim",
+    "meaning": "Estimated net battery-terminal energy for a common reference BEV.",
+    "method": "fixed_trajectory_interval_work",
+    "fixed_trajectory_source": "https://github.com/eclipse-sumo/sumo/blob/v1_23_1/src/utils/emissions/HelpersEnergy.cpp",
+    "sampling_policy": "Recorded intervals with piecewise-linear speed.",
+    "thermal_mode": "isothermal_no_hvac",
+    "reference_selection": "Stock midsize BEV sedan parameters: 1752 kg, compared with the simulated Lincoln MKZ 2020 at 1696 kg. Fixed 250 W auxiliaries and isothermal operation.",
+    "eligibility": "fixed_trajectory_endpoint_hold",
+    "contact_policy": "Retain road load and auxiliary energy during contact; exclude impact kinetic work from propulsion and regeneration.",
+    "power_limit_policy": "Above reference power, hold endpoint motor efficiency and retain full demand. Record extension time, peak power ratio and energy. Require complete motion and contact records.",
+    "quantify_contact_sensitivity": true,
+    "contact_sensitivity_interpretation": "Report sensitivity to positive-only and negative-only impact kinetic-work attribution.",
+    "reference_parameters": "configs/reference_bev_energy.json"
+  }
+}

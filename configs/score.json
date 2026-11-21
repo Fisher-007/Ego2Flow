@@ -1,0 +1,15 @@
+{
+  "version": "1",
+  "scales": {
+    "delay_s_per_request": 60,
+    "collision_rate_per_vehicle_km": 1,
+    "low_ttc_exposure_percent": 1,
+    "hard_braking_rate_per_vehicle_km": 5,
+    "speed_sd_mps": 2,
+    "amplification_ratio": 1,
+    "estimated_energy_kwh_per_100_vehicle_km": 30
+  },
+  "minimum_leader_speed_loss_mps": 0.2,
+  "minimum_evaluated_distance_km": 0.001,
+  "total_scale": 12.5
+}

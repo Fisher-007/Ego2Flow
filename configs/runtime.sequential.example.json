@@ -1,0 +1,30 @@
+{
+  "resource": {
+    "gpu": 0,
+    "cpus": "0-7",
+    "port": 23000,
+    "ue4_root": "${UE4_ROOT}",
+    "carla_python_api": "${CARLA_PYTHON_API}",
+    "startup_timeout_s": 3600,
+    "maps": {
+      "PAO": {
+        "carla_root": "${EGO2FLOW_MAPS}/v1_0/Ego2Flow_PAO_v1_0/native"
+      },
+      "DTW": {
+        "carla_root": "${EGO2FLOW_MAPS}/v1_0/Ego2Flow_DTW_v1_0/native"
+      },
+      "ATX": {
+        "carla_root": "${EGO2FLOW_MAPS}/v1_0/Ego2Flow_ATX_v1_0/native"
+      },
+      "MIA": {
+        "carla_root": "${EGO2FLOW_MAPS}/v1_0/Ego2Flow_MIA_v1_0/native"
+      },
+      "PIT": {
+        "carla_root": "${EGO2FLOW_MAPS}/v1_0/Ego2Flow_PIT_v1_0/native"
+      },
+      "WDC": {
+        "carla_root": "${EGO2FLOW_MAPS}/v1_0/Ego2Flow_WDC_v1_0/native"
+      }
+    }
+  }
+}

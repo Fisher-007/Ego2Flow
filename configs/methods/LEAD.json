@@ -1,0 +1,17 @@
+{
+  "id": "LEAD",
+  "name": "LEAD",
+  "version": "1",
+  "visual_policy": {
+    "kind": "lead",
+    "source_root": "${LEAD_SOURCE}",
+    "model_dir": "${LEAD_WEIGHTS}",
+    "checkpoint": "model_0030_0.pth",
+    "device": "cuda:0",
+    "navigation_sample_factor_m": 200.0,
+    "controller_variant": "bounded_lookahead",
+    "longitudinal_mode": "waypoint",
+    "allow_tf32": false
+  },
+  "python": "${LEAD_PYTHON}"
+}

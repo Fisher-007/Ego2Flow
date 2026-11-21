@@ -1,0 +1,16 @@
+{
+  "id": "Alpamayo",
+  "name": "Alpamayo",
+  "version": "1",
+  "visual_policy": {
+    "kind": "alpamayo",
+    "factory": "benchmark.policies.vlm:create",
+    "model_kind": "alpamayo",
+    "name": "Alpamayo",
+    "model_path": "${ALPAMAYO_WEIGHTS}",
+    "inference_python": "${VLM_INFERENCE_PYTHON}",
+    "calibration": "${EGO2FLOW_ROOT}/configs/sensors/av2_front_rig.json",
+    "seed": 7
+  },
+  "python": "${VLM_CARLA_PYTHON}"
+}

@@ -1,0 +1,12 @@
+{
+  "LEAD_SOURCE": "/path/to/lead",
+  "LEAD_WEIGHTS": "/path/to/tfv6/tfv6_resnet34",
+  "UNIAD_CONFIG": "/path/to/Bench2DriveZoo/adzoo/uniad/configs/stage2_e2e/base_e2e_b2d.py",
+  "UNIAD_WEIGHTS": "/path/to/uniad/weights/uniad_base_b2d.pth",
+  "UNIAD_PYTHON": "/path/to/uniad-env/bin/python",
+  "ONEVL_WEIGHTS": "/path/to/onevl/model",
+  "ALPAMAYO_WEIGHTS": "/path/to/alpamayo-release",
+  "VLM_INFERENCE_PYTHON": "/path/to/vlm-env/bin/python",
+  "VLM_CARLA_PYTHON": "/path/to/benchmark-env/bin/python",
+  "LEAD_PYTHON": "/path/to/lead-env/bin/python"
+}

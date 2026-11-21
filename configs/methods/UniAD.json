@@ -1,0 +1,15 @@
+{
+  "id": "UniAD",
+  "name": "UniAD",
+  "version": "1",
+  "visual_policy": {
+    "kind": "uniad",
+    "factory": "benchmark.policies.uniad:create",
+    "config": "${UNIAD_CONFIG}",
+    "checkpoint": "${UNIAD_WEIGHTS}",
+    "calibration": "${EGO2FLOW_ROOT}/configs/sensors/uniad_rig.json",
+    "device": "cuda:0",
+    "allow_tf32": false
+  },
+  "python": "${UNIAD_PYTHON}"
+}

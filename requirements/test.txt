@@ -1,0 +1,4 @@
+-r metrics.txt
+scipy==1.15.3
+opencv-python-headless==4.10.0.84
+pytest==8.3.5

@@ -1,0 +1,831 @@
+{
+  "version": "ego2flow-scenes-v1.0",
+  "method_order": [
+    "TM",
+    "IDM",
+    "LEAD",
+    "OneVL",
+    "Alpamayo",
+    "UniAD"
+  ],
+  "methods": {
+    "TM": "configs/methods/TM.json",
+    "IDM": "configs/methods/IDM.json",
+    "LEAD": "configs/methods/LEAD.json",
+    "OneVL": "configs/methods/OneVL.json",
+    "Alpamayo": "configs/methods/Alpamayo.json",
+    "UniAD": "configs/methods/UniAD.json"
+  },
+  "scenes": [
+    {
+      "id": "PAO-S01",
+      "city": "PAO",
+      "task": "service",
+      "version": "ego2flow-scenes-v1.0",
+      "window_s": [
+        0.0,
+        180.0
+      ],
+      "scene_dir": "${SCENARIO_ROOT}/PAO-S01"
+    },
+    {
+      "id": "PAO-S02",
+      "city": "PAO",
+      "task": "service",
+      "version": "ego2flow-scenes-v1.0",
+      "window_s": [
+        0.0,
+        180.0
+      ],
+      "scene_dir": "${SCENARIO_ROOT}/PAO-S02"
+    },
+    {
+      "id": "PAO-S03",
+      "city": "PAO",
+      "task": "service",
+      "version": "ego2flow-scenes-v1.0",
+      "window_s": [
+        0.0,
+        180.0
+      ],
+      "scene_dir": "${SCENARIO_ROOT}/PAO-S03"
+    },
+    {
+      "id": "PAO-S04",
+      "city": "PAO",
+      "task": "service",
+      "version": "ego2flow-scenes-v1.0",
+      "window_s": [
+        0.0,
+        180.0
+      ],
+      "scene_dir": "${SCENARIO_ROOT}/PAO-S04"
+    },
+    {
+      "id": "PAO-P01",
+      "city": "PAO",
+      "task": "propagation",
+      "version": "ego2flow-scenes-v1.0",
+      "window_s": [
+        0.0,
+        60.0
+      ],
+      "scene_dir": "${SCENARIO_ROOT}/PAO-P01"
+    },
+    {
+      "id": "PAO-P02",
+      "city": "PAO",
+      "task": "propagation",
+      "version": "ego2flow-scenes-v1.0",
+      "window_s": [
+        0.0,
+        60.0
+      ],
+      "scene_dir": "${SCENARIO_ROOT}/PAO-P02"
+    },
+    {
+      "id": "PAO-B01",
+      "city": "PAO",
+      "task": "service",
+      "version": "ego2flow-scenes-v1.0",
+      "window_s": [
+        0.0,
+        180.0
+      ],
+      "scene_dir": "${SCENARIO_ROOT}/PAO-B01"
+    },
+    {
+      "id": "PAO-B02",
+      "city": "PAO",
+      "task": "service",
+      "version": "ego2flow-scenes-v1.0",
+      "window_s": [
+        0.0,
+        240.0
+      ],
+      "scene_dir": "${SCENARIO_ROOT}/PAO-B02"
+    },
+    {
+      "id": "DTW-S01",
+      "city": "DTW",
+      "task": "service",
+      "version": "ego2flow-scenes-v1.0",
+      "window_s": [
+        0.0,
+        180.0
+      ],
+      "scene_dir": "${SCENARIO_ROOT}/DTW-S01"
+    },
+    {
+      "id": "DTW-S02",
+      "city": "DTW",
+      "task": "service",
+      "version": "ego2flow-scenes-v1.0",
+      "window_s": [
+        0.0,
+        180.0
+      ],
+      "scene_dir": "${SCENARIO_ROOT}/DTW-S02"
+    },
+    {
+      "id": "DTW-S03",
+      "city": "DTW",
+      "task": "service",
+      "version": "ego2flow-scenes-v1.0",
+      "window_s": [
+        0.0,
+        180.0
+      ],
+      "scene_dir": "${SCENARIO_ROOT}/DTW-S03"
+    },
+    {
+      "id": "DTW-S04",
+      "city": "DTW",
+      "task": "service",
+      "version": "ego2flow-scenes-v1.0",
+      "window_s": [
+        0.0,
+        180.0
+      ],
+      "scene_dir": "${SCENARIO_ROOT}/DTW-S04"
+    },
+    {
+      "id": "DTW-B01",
+      "city": "DTW",
+      "task": "service",
+      "version": "ego2flow-scenes-v1.0",
+      "window_s": [
+        0.0,
+        180.0
+      ],
+      "scene_dir": "${SCENARIO_ROOT}/DTW-B01"
+    },
+    {
+      "id": "DTW-B02",
+      "city": "DTW",
+      "task": "service",
+      "version": "ego2flow-scenes-v1.0",
+      "window_s": [
+        0.0,
+        180.0
+      ],
+      "scene_dir": "${SCENARIO_ROOT}/DTW-B02"
+    },
+    {
+      "id": "DTW-P01",
+      "city": "DTW",
+      "task": "propagation",
+      "version": "ego2flow-scenes-v1.0",
+      "window_s": [
+        0.0,
+        60.0
+      ],
+      "scene_dir": "${SCENARIO_ROOT}/DTW-P01"
+    },
+    {
+      "id": "DTW-P02",
+      "city": "DTW",
+      "task": "propagation",
+      "version": "ego2flow-scenes-v1.0",
+      "window_s": [
+        0.0,
+        60.0
+      ],
+      "scene_dir": "${SCENARIO_ROOT}/DTW-P02"
+    },
+    {
+      "id": "ATX-S01",
+      "city": "ATX",
+      "task": "service",
+      "version": "ego2flow-scenes-v1.0",
+      "window_s": [
+        0.0,
+        180.0
+      ],
+      "scene_dir": "${SCENARIO_ROOT}/ATX-S01"
+    },
+    {
+      "id": "ATX-S02",
+      "city": "ATX",
+      "task": "service",
+      "version": "ego2flow-scenes-v1.0",
+      "window_s": [
+        0.0,
+        180.0
+      ],
+      "scene_dir": "${SCENARIO_ROOT}/ATX-S02"
+    },
+    {
+      "id": "ATX-S03",
+      "city": "ATX",
+      "task": "service",
+      "version": "ego2flow-scenes-v1.0",
+      "window_s": [
+        0.0,
+        180.0
+      ],
+      "scene_dir": "${SCENARIO_ROOT}/ATX-S03"
+    },
+    {
+      "id": "ATX-S04",
+      "city": "ATX",
+      "task": "service",
+      "version": "ego2flow-scenes-v1.0",
+      "window_s": [
+        0.0,
+        180.0
+      ],
+      "scene_dir": "${SCENARIO_ROOT}/ATX-S04"
+    },
+    {
+      "id": "ATX-B01",
+      "city": "ATX",
+      "task": "service",
+      "version": "ego2flow-scenes-v1.0",
+      "window_s": [
+        0.0,
+        180.0
+      ],
+      "scene_dir": "${SCENARIO_ROOT}/ATX-B01"
+    },
+    {
+      "id": "ATX-B02",
+      "city": "ATX",
+      "task": "service",
+      "version": "ego2flow-scenes-v1.0",
+      "window_s": [
+        0.0,
+        180.0
+      ],
+      "scene_dir": "${SCENARIO_ROOT}/ATX-B02"
+    },
+    {
+      "id": "ATX-P01",
+      "city": "ATX",
+      "task": "propagation",
+      "version": "ego2flow-scenes-v1.0",
+      "window_s": [
+        0.0,
+        60.0
+      ],
+      "scene_dir": "${SCENARIO_ROOT}/ATX-P01"
+    },
+    {
+      "id": "ATX-P02",
+      "city": "ATX",
+      "task": "propagation",
+      "version": "ego2flow-scenes-v1.0",
+      "window_s": [
+        0.0,
+        60.0
+      ],
+      "scene_dir": "${SCENARIO_ROOT}/ATX-P02"
+    },
+    {
+      "id": "MIA-S01",
+      "city": "MIA",
+      "task": "service",
+      "version": "ego2flow-scenes-v1.0",
+      "window_s": [
+        0.0,
+        180.0
+      ],
+      "scene_dir": "${SCENARIO_ROOT}/MIA-S01"
+    },
+    {
+      "id": "MIA-S02",
+      "city": "MIA",
+      "task": "service",
+      "version": "ego2flow-scenes-v1.0",
+      "window_s": [
+        0.0,
+        180.0
+      ],
+      "scene_dir": "${SCENARIO_ROOT}/MIA-S02"
+    },
+    {
+      "id": "MIA-S03",
+      "city": "MIA",
+      "task": "service",
+      "version": "ego2flow-scenes-v1.0",
+      "window_s": [
+        0.0,
+        180.0
+      ],
+      "scene_dir": "${SCENARIO_ROOT}/MIA-S03"
+    },
+    {
+      "id": "MIA-S04",
+      "city": "MIA",
+      "task": "service",
+      "version": "ego2flow-scenes-v1.0",
+      "window_s": [
+        0.0,
+        180.0
+      ],
+      "scene_dir": "${SCENARIO_ROOT}/MIA-S04"
+    },
+    {
+      "id": "MIA-B01",
+      "city": "MIA",
+      "task": "service",
+      "version": "ego2flow-scenes-v1.0",
+      "window_s": [
+        0.0,
+        180.0
+      ],
+      "scene_dir": "${SCENARIO_ROOT}/MIA-B01"
+    },
+    {
+      "id": "MIA-B02",
+      "city": "MIA",
+      "task": "service",
+      "version": "ego2flow-scenes-v1.0",
+      "window_s": [
+        0.0,
+        180.0
+      ],
+      "scene_dir": "${SCENARIO_ROOT}/MIA-B02"
+    },
+    {
+      "id": "MIA-P01",
+      "city": "MIA",
+      "task": "propagation",
+      "version": "ego2flow-scenes-v1.0",
+      "window_s": [
+        0.0,
+        60.0
+      ],
+      "scene_dir": "${SCENARIO_ROOT}/MIA-P01"
+    },
+    {
+      "id": "MIA-P02",
+      "city": "MIA",
+      "task": "propagation",
+      "version": "ego2flow-scenes-v1.0",
+      "window_s": [
+        0.0,
+        60.0
+      ],
+      "scene_dir": "${SCENARIO_ROOT}/MIA-P02"
+    },
+    {
+      "id": "PIT-S01",
+      "city": "PIT",
+      "task": "service",
+      "version": "ego2flow-scenes-v1.0",
+      "window_s": [
+        0.0,
+        180.0
+      ],
+      "scene_dir": "${SCENARIO_ROOT}/PIT-S01"
+    },
+    {
+      "id": "PIT-S02",
+      "city": "PIT",
+      "task": "service",
+      "version": "ego2flow-scenes-v1.0",
+      "window_s": [
+        0.0,
+        180.0
+      ],
+      "scene_dir": "${SCENARIO_ROOT}/PIT-S02"
+    },
+    {
+      "id": "PIT-S03",
+      "city": "PIT",
+      "task": "service",
+      "version": "ego2flow-scenes-v1.0",
+      "window_s": [
+        0.0,
+        180.0
+      ],
+      "scene_dir": "${SCENARIO_ROOT}/PIT-S03"
+    },
+    {
+      "id": "PIT-S04",
+      "city": "PIT",
+      "task": "service",
+      "version": "ego2flow-scenes-v1.0",
+      "window_s": [
+        0.0,
+        180.0
+      ],
+      "scene_dir": "${SCENARIO_ROOT}/PIT-S04"
+    },
+    {
+      "id": "PIT-P01",
+      "city": "PIT",
+      "task": "propagation",
+      "version": "ego2flow-scenes-v1.0",
+      "window_s": [
+        0.0,
+        60.0
+      ],
+      "scene_dir": "${SCENARIO_ROOT}/PIT-P01"
+    },
+    {
+      "id": "PIT-P02",
+      "city": "PIT",
+      "task": "propagation",
+      "version": "ego2flow-scenes-v1.0",
+      "window_s": [
+        0.0,
+        60.0
+      ],
+      "scene_dir": "${SCENARIO_ROOT}/PIT-P02"
+    },
+    {
+      "id": "PIT-B01",
+      "city": "PIT",
+      "task": "service",
+      "version": "ego2flow-scenes-v1.0",
+      "window_s": [
+        0.0,
+        180.0
+      ],
+      "scene_dir": "${SCENARIO_ROOT}/PIT-B01"
+    },
+    {
+      "id": "PIT-B02",
+      "city": "PIT",
+      "task": "service",
+      "version": "ego2flow-scenes-v1.0",
+      "window_s": [
+        0.0,
+        180.0
+      ],
+      "scene_dir": "${SCENARIO_ROOT}/PIT-B02"
+    },
+    {
+      "id": "WDC-S01",
+      "city": "WDC",
+      "task": "service",
+      "version": "ego2flow-scenes-v1.0",
+      "window_s": [
+        0.0,
+        180.0
+      ],
+      "scene_dir": "${SCENARIO_ROOT}/WDC-S01"
+    },
+    {
+      "id": "WDC-S02",
+      "city": "WDC",
+      "task": "service",
+      "version": "ego2flow-scenes-v1.0",
+      "window_s": [
+        0.0,
+        180.0
+      ],
+      "scene_dir": "${SCENARIO_ROOT}/WDC-S02"
+    },
+    {
+      "id": "WDC-S03",
+      "city": "WDC",
+      "task": "service",
+      "version": "ego2flow-scenes-v1.0",
+      "window_s": [
+        0.0,
+        180.0
+      ],
+      "scene_dir": "${SCENARIO_ROOT}/WDC-S03"
+    },
+    {
+      "id": "WDC-S04",
+      "city": "WDC",
+      "task": "service",
+      "version": "ego2flow-scenes-v1.0",
+      "window_s": [
+        0.0,
+        180.0
+      ],
+      "scene_dir": "${SCENARIO_ROOT}/WDC-S04"
+    },
+    {
+      "id": "WDC-B01",
+      "city": "WDC",
+      "task": "service",
+      "version": "ego2flow-scenes-v1.0",
+      "window_s": [
+        0.0,
+        180.0
+      ],
+      "scene_dir": "${SCENARIO_ROOT}/WDC-B01"
+    },
+    {
+      "id": "WDC-B02",
+      "city": "WDC",
+      "task": "service",
+      "version": "ego2flow-scenes-v1.0",
+      "window_s": [
+        0.0,
+        180.0
+      ],
+      "scene_dir": "${SCENARIO_ROOT}/WDC-B02"
+    },
+    {
+      "id": "WDC-P01",
+      "city": "WDC",
+      "task": "propagation",
+      "version": "ego2flow-scenes-v1.0",
+      "window_s": [
+        0.0,
+        60.0
+      ],
+      "scene_dir": "${SCENARIO_ROOT}/WDC-P01"
+    },
+    {
+      "id": "WDC-P02",
+      "city": "WDC",
+      "task": "propagation",
+      "version": "ego2flow-scenes-v1.0",
+      "window_s": [
+        0.0,
+        60.0
+      ],
+      "scene_dir": "${SCENARIO_ROOT}/WDC-P02"
+    }
+  ],
+  "metric_scenes": {
+    "speed_sd_mps": [
+      "PAO-S01",
+      "PAO-S02",
+      "PAO-S03",
+      "PAO-S04",
+      "PAO-B01",
+      "PAO-B02",
+      "DTW-S01",
+      "DTW-S02",
+      "DTW-S03",
+      "DTW-S04",
+      "DTW-B01",
+      "DTW-B02",
+      "ATX-S01",
+      "ATX-S02",
+      "ATX-S03",
+      "ATX-S04",
+      "ATX-B01",
+      "ATX-B02",
+      "MIA-S01",
+      "MIA-S02",
+      "MIA-S03",
+      "MIA-S04",
+      "MIA-B01",
+      "MIA-B02",
+      "PIT-S01",
+      "PIT-S02",
+      "PIT-S03",
+      "PIT-S04",
+      "PIT-B01",
+      "PIT-B02",
+      "WDC-S01",
+      "WDC-S02",
+      "WDC-S03",
+      "WDC-S04",
+      "WDC-B01",
+      "WDC-B02"
+    ],
+    "amplification_ratio": [
+      "PAO-P01",
+      "PAO-P02",
+      "DTW-P01",
+      "DTW-P02",
+      "ATX-P01",
+      "ATX-P02",
+      "MIA-P01",
+      "MIA-P02",
+      "PIT-P01",
+      "PIT-P02",
+      "WDC-P01",
+      "WDC-P02"
+    ],
+    "delay_s_per_request": [
+      "PAO-S01",
+      "PAO-S02",
+      "PAO-S03",
+      "PAO-S04",
+      "PAO-B01",
+      "PAO-B02",
+      "DTW-S01",
+      "DTW-S02",
+      "DTW-S03",
+      "DTW-S04",
+      "DTW-B01",
+      "DTW-B02",
+      "ATX-S01",
+      "ATX-S02",
+      "ATX-S03",
+      "ATX-S04",
+      "ATX-B01",
+      "ATX-B02",
+      "MIA-S01",
+      "MIA-S02",
+      "MIA-S03",
+      "MIA-S04",
+      "MIA-B01",
+      "MIA-B02",
+      "PIT-S01",
+      "PIT-S02",
+      "PIT-S03",
+      "PIT-S04",
+      "PIT-B01",
+      "PIT-B02",
+      "WDC-S01",
+      "WDC-S02",
+      "WDC-S03",
+      "WDC-S04",
+      "WDC-B01",
+      "WDC-B02"
+    ],
+    "throughput_veh_h": [
+      "PAO-S01",
+      "PAO-S02",
+      "PAO-S03",
+      "PAO-S04",
+      "PAO-B01",
+      "PAO-B02",
+      "DTW-S01",
+      "DTW-S02",
+      "DTW-S03",
+      "DTW-S04",
+      "DTW-B01",
+      "DTW-B02",
+      "ATX-S01",
+      "ATX-S02",
+      "ATX-S03",
+      "ATX-S04",
+      "ATX-B01",
+      "ATX-B02",
+      "MIA-S01",
+      "MIA-S02",
+      "MIA-S03",
+      "MIA-S04",
+      "MIA-B01",
+      "MIA-B02",
+      "PIT-S01",
+      "PIT-S02",
+      "PIT-S03",
+      "PIT-S04",
+      "PIT-B01",
+      "PIT-B02",
+      "WDC-S01",
+      "WDC-S02",
+      "WDC-S03",
+      "WDC-S04",
+      "WDC-B01",
+      "WDC-B02"
+    ],
+    "collision_rate_per_vehicle_km": [
+      "PAO-S01",
+      "PAO-S02",
+      "PAO-S03",
+      "PAO-S04",
+      "PAO-B01",
+      "PAO-B02",
+      "DTW-S01",
+      "DTW-S02",
+      "DTW-S03",
+      "DTW-S04",
+      "DTW-B01",
+      "DTW-B02",
+      "ATX-S01",
+      "ATX-S02",
+      "ATX-S03",
+      "ATX-S04",
+      "ATX-B01",
+      "ATX-B02",
+      "MIA-S01",
+      "MIA-S02",
+      "MIA-S03",
+      "MIA-S04",
+      "MIA-B01",
+      "MIA-B02",
+      "PIT-S01",
+      "PIT-S02",
+      "PIT-S03",
+      "PIT-S04",
+      "PIT-B01",
+      "PIT-B02",
+      "WDC-S01",
+      "WDC-S02",
+      "WDC-S03",
+      "WDC-S04",
+      "WDC-B01",
+      "WDC-B02"
+    ],
+    "low_ttc_exposure_percent": [
+      "PAO-S01",
+      "PAO-S02",
+      "PAO-S03",
+      "PAO-S04",
+      "PAO-B01",
+      "PAO-B02",
+      "DTW-S01",
+      "DTW-S02",
+      "DTW-S03",
+      "DTW-S04",
+      "DTW-B01",
+      "DTW-B02",
+      "ATX-S01",
+      "ATX-S02",
+      "ATX-S03",
+      "ATX-S04",
+      "ATX-B01",
+      "ATX-B02",
+      "MIA-S01",
+      "MIA-S02",
+      "MIA-S03",
+      "MIA-S04",
+      "MIA-B01",
+      "MIA-B02",
+      "PIT-S01",
+      "PIT-S02",
+      "PIT-S03",
+      "PIT-S04",
+      "PIT-B01",
+      "PIT-B02",
+      "WDC-S01",
+      "WDC-S02",
+      "WDC-S03",
+      "WDC-S04",
+      "WDC-B01",
+      "WDC-B02"
+    ],
+    "hard_braking_rate_per_vehicle_km": [
+      "PAO-S01",
+      "PAO-S02",
+      "PAO-S03",
+      "PAO-S04",
+      "PAO-B01",
+      "PAO-B02",
+      "DTW-S01",
+      "DTW-S02",
+      "DTW-S03",
+      "DTW-S04",
+      "DTW-B01",
+      "DTW-B02",
+      "ATX-S01",
+      "ATX-S02",
+      "ATX-S03",
+      "ATX-S04",
+      "ATX-B01",
+      "ATX-B02",
+      "MIA-S01",
+      "MIA-S02",
+      "MIA-S03",
+      "MIA-S04",
+      "MIA-B01",
+      "MIA-B02",
+      "PIT-S01",
+      "PIT-S02",
+      "PIT-S03",
+      "PIT-S04",
+      "PIT-B01",
+      "PIT-B02",
+      "WDC-S01",
+      "WDC-S02",
+      "WDC-S03",
+      "WDC-S04",
+      "WDC-B01",
+      "WDC-B02"
+    ],
+    "estimated_energy_kwh_per_100_vehicle_km": [
+      "PAO-S01",
+      "PAO-S02",
+      "PAO-S03",
+      "PAO-S04",
+      "PAO-B01",
+      "PAO-B02",
+      "DTW-S01",
+      "DTW-S02",
+      "DTW-S03",
+      "DTW-S04",
+      "DTW-B01",
+      "DTW-B02",
+      "ATX-S01",
+      "ATX-S02",
+      "ATX-S03",
+      "ATX-S04",
+      "ATX-B01",
+      "ATX-B02",
+      "MIA-S01",
+      "MIA-S02",
+      "MIA-S03",
+      "MIA-S04",
+      "MIA-B01",
+      "MIA-B02",
+      "PIT-S01",
+      "PIT-S02",
+      "PIT-S03",
+      "PIT-S04",
+      "PIT-B01",
+      "PIT-B02",
+      "WDC-S01",
+      "WDC-S02",
+      "WDC-S03",
+      "WDC-S04",
+      "WDC-B01",
+      "WDC-B02"
+    ]
+  }
+}
